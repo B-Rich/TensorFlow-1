@@ -5,7 +5,7 @@ Python + TensorFlow Learning!
 
 @hunkim and @FuZer
 
-Complete Labs :+1|
+Complete Labs :+1:|
 --------------
 lab01|
 lab02|
