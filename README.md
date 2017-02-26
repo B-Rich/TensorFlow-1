@@ -17,7 +17,10 @@ lab06|
 ##Environment
 
 1. Windows 10  
-2. Anaconda Python3 (Python 3.5.x)  
+
+2. Anaconda Python3 (Python 3.5.x)
+  
 3. tensorflow0.12.1  
+
 4. NumPy  
 
