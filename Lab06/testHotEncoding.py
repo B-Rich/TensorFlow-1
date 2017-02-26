@@ -23,7 +23,7 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
     sess.run(init)
 
-    for step in range(2001):
+    for step in range(4001):
         sess.run(optimizer, feed_dict={x:x_data, y:y_data})
         if step & 20 == 0:
             print(step)
