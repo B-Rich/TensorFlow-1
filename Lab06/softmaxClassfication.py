@@ -26,7 +26,7 @@ with tf.Session() as sess:
     for step in range(2001):
         sess.run(optimizer, feed_dict={x:x_data, y:y_data})
         if step & 20 == 0:
-            print(step)
+            print(step, end="\n\n")
             print(sess.run(cost, feed_dict={x:x_data, y:y_data}))
             print(sess.run(w))
             print()
